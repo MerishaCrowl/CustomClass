@@ -16,13 +16,14 @@ public class Main {
 
 
         //Create another object using the all attributes constructor
-        Customer customer2 = new Customer("Jennifer", "Smith", "email@gmail.com", "(222) 222-2222", "jennyfromtheblock", "Blue22", false);
+        Customer customer2 = new Customer("Marcus", "Anders", "marcusanders@gmail.com", "(222) 222-2222", "MAnders", "Blue22", false);
 
 
         boolean isCustomer2Subscriber = customer2.getIsSubscriber();
 
         //Create another object using the 2 attributes constructor
-        Customer customer3 = new Customer("supercustomer", "XxYyZz123987");
+        Customer customer3 = new Customer("Nadine", "Calloway", "supercustomer@yahoo.com", "(339) 442-4242", "CallowayN", "XxYyZz123987", true);
+
 
         boolean isCustomer3Subscriber = customer3.getIsSubscriber();
 
